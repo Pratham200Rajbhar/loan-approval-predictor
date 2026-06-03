@@ -1,0 +1,12 @@
+{
+  "name": "loan-approval-predictor",
+  "version": "1.0.0",
+  "description": "Loan Approval Prediction monorepo for Vercel deployment",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build"
+  },
+  "engines": {
+    "node": "20.x",
+    "python": "3.12"
+  }
+}
