@@ -4,7 +4,7 @@ import LoanForm from './components/LoanForm';
 import ResultsDisplay from './components/ResultsDisplay';
 import { AlertCircle } from 'lucide-react';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = '';
 
 function App() {
   const [predictionResult, setPredictionResult] = useState(null);
